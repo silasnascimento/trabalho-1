@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Curriculum Vitae</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <header>
+        <nav>
+            <ul>
+                <li><a href="#sobre-mim">SOBRE MIM</a></li>
+                <li><a href="#formacao-educacional">FORMAÇÃO EDUCACIONAL</a></li>
+                <li><a href="#portfolio">PORTIFOLIO</a></li>
+                <li><a href="#contato">CONTATO</a></li>
+            </ul>
+        </nav>
+    </header>
+    <main>
+        <section id="sobre-mim">
+            <h1>Sobre Mim</h1>
+            <p>Sou geógrafo, com experiência em geoprocessamento, desenvolvimento GIS e automação de processos.</p>
+        </section>
+
+        <section id="formacao-educacional">
+            <h1>Formação Educacional</h1>
+            <ul>
+                <li>Bacharelado em Geografia - Universidade Federal de Roraima</li>
+                <li>Curso de Tecnólogo em Análise e Desenvolvimento de Sistemas - Universidade UNINTER (em andamento)</li>
+            </ul>
+        </section>
+
+        <section id="portfolio">
+            <h1>Portifolio</h1>
+            <ul class="portfolio-links">
+                <li><a href="https://github.com/seu-usuario/projeto1" target="_blank">Projeto 1</a></li>
+                <li><a href="https://github.com/seu-usuario/projeto2" target="_blank">Projeto 2</a></li>
+                <li><a href="https://github.com/seu-usuario/projeto3" target="_blank">Projeto 3</a></li>
+            </ul>
+        </section>
+
+        <section id="contato">
+            <h1>Contato</h1>
+            <form id="contact-form">
+                <label for="name">Nome:</label>
+                <input type="text" id="name" name="name" required>
+                
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+
+                <label for="message">Mensagem:</label>
+                <textarea id="message" name="message" required></textarea>
+
+                <button type="submit">Enviar</button>
+            </form>
+        </section>
+    </main>
+
+    <script src="script.js"></script>
+</body>
+</html>
